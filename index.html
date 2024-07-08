@@ -1,13 +1,755 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-	<p>Start of a new website</p>
-  </body>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Personal Portfolio Website by Narendra Singh" />
+	<meta name="keywords"
+		content="design, designer, UI/UX, UI, UX, user interface, web design, graphic design, portfolio, job, hire, design" />
+	<meta name="author" content="Narendra Singh" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="PerfectlyPixel Portfolio by Narendra Singh" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="https://www.perfectlypixel.com" />
+	<meta property="og:site_name" content="PerfectlyPixel" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="PerfectlyPixel Portfolio" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="https://www.perfectlypixel.com" />
+	<meta name="twitter:card" content="PerfectlyPixel" />
+	<title>PerfectlyPixel</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<!-- <link
+		href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Playfair+Display:400,700,900|Raleway:200,200i,300,400,500,600,700,800,900|Lato:300,400,500,600,700"
+		rel="stylesheet" type="text/css"> -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Noto+Sans:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet"> -->
+ 
+	<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/stylish-portfolio.min.css" rel="stylesheet">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8NPGCWSVPL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8NPGCWSVPL');
+</script>
+
+<body id="page-top">
+
+	<!-- Start -->
+	<section class="content-section" id="about">
+		<!--
+		<nav class="topnav fixed-top">
+			<a href="#about"><img class="logo" src="img/logo.svg" /></a>
+
+			<ul>
+				<li><a class="menu-link" href="#portfolio">Case Studies</a></li>
+				<li><a class="menu-link" href="#resources">Resources</a></li>
+				<li><a class="menu-link" href="#testimonials">Testimonials</a></li>
+				<li><a class="menu-link" href="https://medium.com/@3_2_1___Design" target="_blank">Blog <i
+							class="fa fa-external-link-alt ml-2" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav> -->
+ 
+		<div class="container" id="parallax">
+			<div class="text-center">
+				<a href="#about"><img class="logo" src="img/pixel_logo.svg" /></a>
+			</div>		
+			
+			<div class="row">	
+				<div class="col-lg-10">
+					<h4 class="mb-4">Hi, I'm Narendra 👋</h4>
+					<!-- <p class="mb-3 head-title-desc text-bold">Making perfect pixels with care and informed
+						research</p> -->
+					<div class="mb-4">
+						<p class="mb-3">UX Professional with 4.5 years of experience and 1.5 years in software testing (I switched career fields early on). I have worked on mostly e-learning products and to a lesser extent in fintech and proptech products.
+						</p>
+							
+						<p>Some time ago, I took an interest in learning AR/VR design and its potential uses. Are you also learning something new? Let's share our experiences.</p>
+					</div>
+
+					<div class="mb-4">
+						<p class="text-bold">Volunteering 🛠️</p>
+
+						<p><a class="text-bold" href="https://navgurukul.notion.site/The-GamifyEd-Framework-0b6d2d1628234454a69a1bc07104065b" target="_blank">GamifyEd Template</a> (based on Octalysis Framework) | <a class="text-bold" href="https://medium.com/@perfectlypixel" target="_blank">Medium blog</a> | <a class="text-bold" href="https://www.figma.com/file/BqraKFiEK7oN1oQmSquyNN/Design-and-Collaboration%3F-Making-it-work" target="_blank">Design and Collaboration? Making it work</a> (Figma File)</p>
+
+					</div>
+
+						<!-- <p class="mb-3">I have also worked full-time with <a class="text-bold" target="_blank"
+								href="https://edaider.com/en">EdAider</a>, <a class="text-bold" target="_blank"
+								href="https://pagalguy.com/en">Pagalguy</a> and <a class="text-bold" target="_blank"
+								href="https://etttak.se">Etttak</a> on B2B and B2C products.
+						</p> -->
+
+
+					<div>	
+						<p class="text-bold">Connect with me 💬</p>
+						
+						<ul class="list-inline">
+							<li class="list-inline-item text-center">
+								<a class="social-link rounded-circle text-white mr-2" href="mailto:narendra0014@gmail.com?subject=Conversation to discuss a potential opportunity">
+									<i class="icon-paper-plane"></i>
+								</a>
+							</li>
+							<li class="list-inline-item text-center">
+								<a class="social-link rounded-circle text-white mr-2" href="https://www.linkedin.com/in/perfectlypixel/" target="_blank">
+									<i class="icon-social-linkedin"></i>
+								</a>
+							</li>
+						</ul>	
+
+					</div>
+
+						<!-- <p class="head-desc">Let's explore what we can work out based on your requirement and my skills</p>
+					-->
+						<!-- <p class="scroll-down"><a href="#portfolio" class="animate js-scroll-trigger"></a></p> -->
+					
+				</div>
+				
+				<!-- <div class="col-lg-4 offset-lg-1 mypic">
+					<figure>
+						<img src="img/me.jpg" alt="solution" class="img-responsive">
+
+					</figure>
+				</div>
+				-->
+
+			</div>
+
+			<!--
+			<div class="layer" id="l2">
+				<img src="img/illustrations/dots-cyan.png" alt="bg-shape">
+			</div>
+			<div class="layer" id="l3">
+				<img src="img/illustrations/leaf-orange.png" alt="bg-shape">
+			</div>
+			<div class="layer" id="l4">
+				<img src="img/illustrations/dots-orange.png" alt="bg-shape">
+			</div>
+			<div class="layer" id="l6">
+				<img src="img/illustrations/leaf-cyan.png" alt="bg-shape">
+			</div>
+			<div class="layer" id="l7">
+				<img src="img/illustrations/dots-group-orange.png" alt="bg-shape">
+			</div>
+				<div class="layer" id="l8">
+				<img src="img/illustrations/leaf-pink-round.png" alt="bg-shape">
+			</div> 
+			<div class="layer" id="l9">
+				<img src="img/illustrations/leaf-cyan-2.png" alt="bg-shape">
+			</div> -->
+			</div> 
+	</section>
+
+	<!-- <section class="portfolio-section">
+
+		<div class="container" id="skills">
+
+			<div class="mb-5">
+				<h5 class="mb-3">Need a Helping Hand? Help Me Understand</h5>
+				<div class="heading-border"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 margin-mob-bottom">
+					<p class="mb-3 text-bold">The problem points</p>
+					<p>I will enquire about your pressing problems and what actions were taken before to address them.</p>
+				</div>
+
+				<div class="col-lg-4 margin-mob-bottom">
+					<p class="mb-3 text-bold">Requirements non-negotiables</p>
+					<p>What qualities are you looking for in this person?</p>
+				</div>
+				<div class="col-lg-4 margin-mob-bottom">
+					<p class="mb-3 text-bold">The success metrics for this role</p>
+					<p>What you perceive as a successful designer in the role? What has made current designers successful?</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section> -->
+
+	<!-- <section class="mb-6">
+		
+		<div class="container nutshell-portfolio">
+			<div class="row">
+				
+				<div class="col-lg-12">
+					<h3 class="section-description mt-4 mb-4">Portfolio in a Nutshell</h3>
+					
+					<iframe width="100%" height="600px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJVyGAugqKHHZWh4JDiJ2WuDaCTxMTMU_qSnwZUgjj0QBRG0fRFPn7Iqj-aGJswgr47VsIQmFDqu01/pubhtml?widget=true&amp;headers=false"></iframe>
+				</div>
+			</div>
+
+		</div> 
+
+
+	</section> -->
+	<!-- <section class="portfolio-section nutshell-portfolio">
+		<h3 class="section-description mb-2">👩‍💼 Your time is of essence</h3> 
+		<h3 class="section-description mb-4">How about a portfolio glance in a nutshell?</h3>
+		<div class="row table-heading">
+				
+			<div class="col-lg-3">
+				<strong>Project Details</strong>
+			</div>
+			<div class="col-lg-2">
+				<strong>Research and Lo-Fi</strong>
+			</div>
+			<div class="col-lg-2">
+				<strong>Visual Design</strong>
+			</div>
+			<div class="col-lg-2"><strong>Testing</strong></div>
+			<div class="col-lg-3"><strong>Outcomes</strong></div>
+		</div>
+
+		 <div class="row table-row">
+				
+			<div class="col-lg-3">
+				<p class="text-bold">Project 1 - Real Time Classroom Analytics</p> 
+				<p><span class="text-bold">Challenge: </span>Easy and effective "Real Time Anaytics" to aid teaching in classrooms as well as remotely</p>
+				<p><a href="https://edaider.com/en/" target="_blank" class="text-bold">EdAider</a> - 4 weeks</p>
+			</div>
+			<div class="col-lg-2"><p><span class="text-bold">UX Research: </span>Past results from PhD team, student interviews, teacher workshop/observation using MVP</p>
+			<p><span class="text-bold">Lo-fi: </span>Paper sketches</p></div>
+			<div class="col-lg-2">
+				<p><span class="text-bold">Visuals: </span>Mockups in Figma for Student and Teacher interface using Highcharts "visualizations" for data visualization</p>
+				<p><span class="text-bold">Prototype: </span>Click and animated prototype in Figma</p>
+			</div>
+			<div class="col-lg-2">Workshop/Observation with teachers and a pilot test study to collect data for AI features</div>
+			<div class="col-lg-3"><p>One school started longterm pilot test. Acquisition of several schools as customers with the MVP.</p>
+			<p class="text-bold">(I can only talk in general terms as the product is still under development)</p></div>
+		</div>
+
+		<div class="hr-rule"></div>
+	
+
+		<div class="row table-row">
+		
+			<div class="col-lg-6 offset-3 text-center">
+				<p class="text-bold mt-4 mb-4"><a class="text-bold" target="_blank" href="https://edaider.com/en">EdAider's</a> product is in early stages and I cannot share it's design work publicly at the moment. Please look into the listed case studies below.</p>
+			</div>
+		</div>
+		<div class="hr-rule"></div>
+
+		<div class="row table-row">
+				
+				<div class="col-lg-3">
+					<p class="text-bold">C2C cuisine experience platform (Personal Project)</p> 
+					<p><span class="text-bold">Challenge: </span>Presenting local cuisine as a full food experience for everyone</p>
+					<p>University Project - 2 months (Later modified to a startup idea)</p>
+				</div>
+				<div class="col-lg-2"><p><span class="text-bold">UX Research: </span>5 in-person conversations, a survey and competitive analysis</p>
+				<p><span class="text-bold">Lo-fi: </span>Wireframes in Figma</p></div>
+				<div class="col-lg-2">
+					<p><span class="text-bold">Visuals: </span>Mockups in Figma</p>
+					<p><span class="text-bold">Prototype: </span>Click prototype and front-end implementation</p>
+				</div>
+				<div class="col-lg-2">Usability tests and demonstration via setting up a real sale</div>
+				<div class="col-lg-3"><p>Was able to drive a sale with the idea. MVP test validated the concept.</p>
+					<p><a href="projectpages/eatlocal.html" class="text-bold">Read in-depth case study 🧐</a></p></div>
+			</div>
+
+		
+			<div class="hr-rule"></div>
+			<div class="row table-row">
+				
+				<div class="col-lg-3">
+					<p class="text-bold">Study bot (The product has pivoted in concept)</p> 
+					<p><span class="text-bold">Challenge: </span>Automating the personal coach with a chatbot who can prepare and help students to remain on their study schedule</p>
+					<p><a href="https://www.oheyo.com" class="text-bold">Oheyo</a> - 1 week design sprint</p>
+				</div>
+
+				<div class="col-lg-2"><p><span class="text-bold">UX Research: </span>5 in-person conversations and review analysis from customer service team</p>
+				<p><span class="text-bold">Lo-fi: </span>Mock conversations to be used for chatbot</p>
+				</div>
+				<div class="col-lg-2">
+					<p><span class="text-bold">Visuals: </span>Mockups in Sketch</p>
+					<p><span class="text-bold">Prototype: </span>Click prototype in Principle</p>
+				</div>
+				<div class="col-lg-2">Usability tests</div>
+				<div class="col-lg-3"><p>Satisfaction for the scenarios covered and increase in course completion rate</p>
+					<p><a href="projectpages/studybot.html" class="text-bold">Read in-depth case study 🧐</a></p></div>
+			</div>
+			
+			<div class="hr-rule"></div>
+
+			<div class="row table-row">
+				
+				<div class="col-lg-3">
+					<p class="text-bold">360° Video Rental Tour</p> 
+					<p><span class="text-bold">Challenge: </span>Creating trust b/n tenants and landlords in sharing economy using 360° VR</p>
+					<p><a href="https://www.etttak.se" target="_blank" class="text-bold">Etttak AB</a> - 4 months (User Research thesis)</p>
+				</div>
+				<div class="col-lg-2"><p><span class="text-bold">UX Research: </span>5 in person conversations and academic literature study</p>
+				<p><span class="text-bold">Lo-fi: </span>Designed in Figma</p></div>
+				<div class="col-lg-2">
+					<p><span class="text-bold">Visuals: </span>Filming a 360° of a landlord</p>
+					<p><span class="text-bold">Prototype: </span>Prototype in Unity 3D</p>
+				</div>
+				<div class="col-lg-2">Usability test with 6 Particpants</div>
+				<div class="col-lg-3"><p>Strong favor for 360° Video VR as a more compelling medium to build trust wiht landlords and 2D pictures of houses on rental websites. VR needs mainstream success for more adoption.</p>
+				<p><a href="projectpages/etttak.html" class="text-bold">Read in-depth case study 🧐</a></p></div>
+			</div>
+
+		
+	</section>
+	-->
+
+		
+	<!-- Portfolio -->
+	<section class="portfolio-section" id="portfolio">
+
+		<div class="container">
+			<div class="mb-5">
+				<h5 class="mb-3">Descriptive Case Study (2 Parts)</h5>
+				<div class="heading-border"></div>
+			</div>
+			<!-- <p class="mb-5"><span class="text-bold">A Note: </span>For the company, <a class="text-bold" target="_blank"
+					href="https://edaider.com/en">EdAider</a>, its product was in early stages at the time of my employment and I cannot share it's design work publicly at the moment. Please look into the case studies listed below.</p>
+			 <div class="content-section-heading text-center">
+				<h3 class="text-secondary mb-0">Portfolio</h3>
+				<h5 class="mb-5">Recent Projects</h5>
+			</div>  -->
+			<!-- 
+			<div class="row margin-portitem">
+				<div class="col-lg-12">
+					<div class="portfolio-tags">
+						<span class="tag">Response System</span>
+						<span class="tag">Web/Mobile</span>
+						<span class="tag">EdTech</span>
+					</div>
+				</div>	
+				<div class="col-lg-8">
+
+					<a class="portfolio-item" href="projectpages/edai.html">
+
+						<span class="caption">
+							<span class="caption-content">
+								<h5>Real-Time Response and its Analytics System for School Classrooms</h5>
+								<p class="mb-0">Building an effective response system for EdTech</p>
+
+							</span>
+						</span>
+						<img class="img-fluid" src="img/home-images/edai-poster.png" alt="">
+					</a>
+				</div>
+				<div class="col-lg-4 text-align-right">
+					<h4 class="mb-1 text-red">The Challenge</h4>
+					<p class="mb-4">EdAI needed a chat and response system for students and its real-time analytics counterpart for teachers in 2 months</p>
+					 <h4 class="mb-1 text-blue">Domain</h4>
+					<p class="mb-4">360° Video VR, User Research, Rental Market</p> 
+					<h4 class="mb-1 text-green">Result</h4>
+					<p class="mb-4">Initally, one school started as a pilot test user. Later, a deal with Stockholm Stad for 3 schools as paid customers</p>
+					<a href="projectpages/edai.html" class="btn animated-button sandy-one">In-Depth Case Study</a>
+				</div>
+			</div>
+
+			<div class="row margin-portitem">
+				<div class="col-lg-12">
+					<div class="portfolio-tags">
+						<span class="tag">Results</span>
+						<span class="tag">Data Visualization</span>
+						<span class="tag">EdTech</span>
+					</div>
+				</div>	
+				<div class="col-lg-8">
+
+					<a class="portfolio-item" href="projectpages/ed_result.html">
+
+						<span class="caption">
+							<span class="caption-content">
+								<h5>Measuring student learning and needs and driving results</h5>
+								<p class="mb-0">Through an assessment and result visualization system</p>
+
+							</span>
+						</span>
+						<img class="img-fluid" src="img/home-images/edresult-poster.png" alt="">
+					</a>
+				</div>
+				<div class="col-lg-4 text-align-right">
+					<h4 class="mb-1 text-red">The Challenge</h4>
+					<p class="mb-4">How to effectively measure student learning and wellbeing throughout the school session and take actionable steps based on data?</p>
+					<h4 class="mb-1 text-blue">Domain</h4>
+					<p class="mb-4">360° Video VR, User Research, Rental Market</p> 
+					<h4 class="mb-1 text-green">Result</h4>
+					<p class="mb-4">EdAider diversified into assessment and result analysis catering to remote learning as well. It also helped in gaining 3 schools as paid customers</p>
+					<a href="projectpages/ed_result.html" class="btn animated-button sandy-one">In-Depth Case Study</a>
+				</div>
+			</div>
+		-->
+
+			<div class="row mb-5 margin-portitem">
+				<div class="col-lg-6">
+					<div class="portfolio-tags">
+						<span class="tag">UX Research</span>
+						<span class="tag">Edtech</span>
+					</div>
+					<a class="portfolio-item" href="projectpages/meraki.html">
+						<span class="caption">
+							<span class="caption-content">
+								<h5>Student Learning Journey - UX Research</h5>
+								<p class="mb-0">Uncovering new challenges and analysis of tasks when learning through classes and self study material</p>
+							</span>
+						</span>
+						<img class="img-fluid" src="img/home-images/meraki.jpg" alt="">
+					</a>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="portfolio-tags">
+						<span class="tag">UI Design</span>
+						<span class="tag">Edtech</span>
+						<span class="tag">Android</span>
+					</div>
+					<a class="portfolio-item" href="projectpages/merakiui.html">
+						<span class="caption">
+							<span class="caption-content">
+								<h5>Student Learning Journey - UI</h5>
+								<p class="mb-0">Ideation, picking solutions and UI design</p>
+							</span>
+						</span>
+						<img class="img-fluid" src="img/home-images/merakiui.jpg" alt="">
+					</a>
+				</div>
+
+			</div>
+				
+
+		
+		</div>
+	</section>
+
+		<!-- Portfolio -->
+		<section class="portfolio-section" id="portfolio">
+
+			<div class="container">
+				<div class="mb-5">
+					<h5 class="mb-3">Case Studies (Relatively Shorter)</h5>
+					<div class="heading-border"></div>
+				</div>
+
+				<div class="row mb-5 margin-portitem">
+					<div class="col-lg-6">
+						<div class="portfolio-tags">
+							<span class="tag">Research and UI</span>
+							<span class="tag">Edtech</span>
+						</div>
+						<a class="portfolio-item" href="projectpages/dashboard.html">
+							<span class="caption">
+								<span class="caption-content">
+									<h5>Tutor Management System for Admins</h5>
+									<p class="mb-0">Keeping track of tutor status and work all in one place</p>
+								</span>
+							</span>
+							<img class="img-fluid" src="img/home-images/dashboard.jpg" alt="">
+						</a>
+					</div>
+					
+					<div class="col-lg-6">
+						<div class="portfolio-tags">
+							<span class="tag">UX Research</span>
+							<span class="tag">Sharing Rental Economy</span>
+						</div>
+					
+						<a class="portfolio-item" href="projectpages/etttak.html">
+					
+							<span class="caption">
+								<span class="caption-content">
+									<h5>Creating Trust in a Rental Sharing Economy</h5>
+									<p class="mb-0">Research thesis project with Etttak AB, Stockholm</p>
+					
+								</span>
+							</span>
+							<img class="img-fluid" src="img/home-images/etttak-poster.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="row margin-portitem">
+
+					<div class="col-lg-6">
+						<div class="portfolio-tags">
+							<span class="tag">Web</span>
+							<span class="tag">FoodTech</span>
+						</div>
+						<a class="portfolio-item" href="projectpages/eatlocal.html">
+							<span class="caption">
+								<span class="caption-content">
+									<h5>EatLocal</h5>
+									<p class="mb-0">Sharing economy of food experiences</p>
+								</span>
+							</span>
+							<img class="img-fluid" src="img/home-images/eatlocal.jpg" alt="">
+						</a>
+					</div>
+			</div>
+	
+		</div>
+
+		</section>
+
+		<section class="portfolio-section" id="testimonials">
+			<div class="container">
+				<div class="mb-5">
+					<h5 class="mb-3">People I Have Worked With</h5>
+					<div class="heading-border"></div>
+				</div>
+		
+				<div class="row">
+					<div class="col-lg-4 recommendation margin-mob-bottom">
+						<p class="quote">"</p>
+						<p>It was a pleasant experience working with Narendra together. He has an eye for details and he designs
+							interfaces in a systematic way.</p>
+						<div class="text-bold">
+							Kirill Maltsev . CTO at EdAider . <a href="https://www.linkedin.com/in/kirillmaltsev/"
+								target="_blank">LinkedIn
+							</a>
+						</div>
+					</div>
+		
+					<div class="col-lg-4 recommendation margin-mob-bottom">
+						<p class="quote">"</p>
+						<p>Driven, efficient, and passionate - this is the best way to describe Narendra. Most recently, Narendra
+							was
+							the “user
+							research” guest lecturer on Inicio’s “Explore UX Design Fundamentals Course". During the course, Narendra
+							demonstrated that he
+							has a strong
+							work ethic, is extremely professional, and a real team player.</p>
+						<div class="text-bold">
+							Kristyn Maguire . UX Program Manager at Inicio . <a
+								href="https://www.linkedin.com/in/kristyn-maguire-51357a89/" target="_blank">LinkedIn
+							</a>
+						</div>
+					</div>
+		
+					<div class="col-lg-4 recommendation">
+						<p class="quote">"</p>
+						<p>Narendra is a supportive colleague when we were working together. He excels at user interface design
+							and often gave
+							guidance to me as a junior.</p>
+						<div class="text-bold">
+							Ellie Luo . Product Designer at Health Integrator . <a href="https://www.linkedin.com/in/ellie-luo-0728/"
+								target="_blank">LinkedIn
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		</section>
+
+
+	<section class="portfolio-section">
+
+		<div class="container" id="skills">
+			<div class="mb-5">
+				<h5 class="mb-3">So What's Next?</h5>
+				<div class="heading-border"></div>
+			</div>
+			<div class="row">
+				<div class="col-lg-7">
+					<p>If the first impressions click, let's connect for a deeper conversation. My aim is to learn everything that you need to know to say, <span class="text-bold">"Yes, I found the right person."</span>
+					</p>
+				</div>
+				<div class="col-lg-4 offset-lg-1">
+					<a href="https://calendly.com/narendra0014/60meet" target="_blank" class="btn animated-button sandy-one">Schedule on Calendly</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	
+<!-- 	
+	<section class="portfolio-section" id="resources">
+		<div class="container">
+			<div class="mb-4">
+				<h5 class="mb-4">Community Work</h5>
+				<div class="heading-border"></div>
+			</div>
+
+			
+			<div class="row mb-4">
+
+				<div class="col-lg-5">
+					<h5 class="mb-4">GamifyEd Template</h5>
+					<p>Notion template based on the Octalysis Gamification framwork by Yu-kai Chou</p>
+				</div>
+
+				<div class="col-lg-7">
+					<iframe class="prototype"
+						src="https://gamifyed.org"
+						allowfullscreen></iframe>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-5">
+					<h5 class="mb-4">Design and Collaboration? Making it work.</h5>
+					<p>A guide on collaboration and communicating asynchronously across teams. Feel free to take bits or whole for
+						your own design process.</p>
+				</div>
+
+				<div class="col-lg-7">
+					<iframe class="prototype"
+						src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBqraKFiEK7oN1oQmSquyNN%2FDesign-and-Collaboration-Making-it-work%3Fnode-id%3D1%253A37&chrome=DOCUMENTATION"
+						allowfullscreen></iframe>
+				</div>
+
+			</div>
+
+		
+			<div class="row">
+
+				<div class="col-lg-5">
+					<h5 class="mb-4">Guest lecture slides in UX Research</h5>
+					<p>This was guest lecture that I gave at a UX workshop organized by <a class="text-bold"
+							href="https://meetinicio.org">Inicio</a>. I gave an overview of importance of UX research and various
+						methods that sutdents could employ depending on the projects.</p>
+				</div>
+
+				<div class="col-lg-7">
+					<iframe class="prototype"
+						src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fgixa6x2P0RhXgueDqD90dO%2FUser-Research-Class%3Fnode-id%3D22%253A137&chrome=DOCUMENTATION"
+						allowfullscreen></iframe>
+				</div>
+
+			</div> 
+		</div>
+	</section> -->
+
+
+
+		<!--
+		<div class="container">
+
+			<div class="row mb-5">
+				<div class="col-lg-4">
+					<div class="testimonial testimonial-mob">
+						<div class="title">
+							<div class="mb-2">Ellie Luo <a class="ml-2 testimonial-social" href="https://www.linkedin.com/in/ellie-luo-0728/" target="_blank"><i class="icon-social-linkedin"></i>
+							</a></div>
+							<p class="post mb-1">UX/UI Designer</p>							
+						</div>
+            <p class="description">
+							Narendra is a supportive colleague when we were working together. He excels at user interface design and often gave guidance to me as a junior.
+            </p>
+            
+          </div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="testimonial testimonial-mob">
+						<div class="title">
+							<div class="mb-2">Kristyn Maguire <a class="ml-2 testimonial-social" href="https://www.linkedin.com/in/kristyn-maguire-51357a89/" target="_blank"><i class="icon-social-linkedin"></i>
+							</a></div>
+							<p class="post mb-1">UX Program Manager/Content Dev @ Inicio</p>							
+						</div>
+            <p class="description">
+               Driven, efficient, and passionate - this is the best way to describe Narendra. I have had the pleasure of working with Narendra on numerous occasions, as he has been a regular mentor with Inicio...
+            </p>
+            
+          </div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="testimonial testimonial-lastitem">
+						<div class="title">
+							<div class="mb-2">Ellie Luo <a class="ml-2 testimonial-social" href="https://www.linkedin.com/in/ellie-luo-0728/" target="_blank"><i class="icon-social-linkedin"></i>
+							</a></div>
+							<p class="post mb-1">UX/UI Intern @ EdAI / Masters HCI</p>							
+						</div>
+            <p class="description">
+              Narendra is a supportive colleague when we were working together. He excels at user interface design and often gave guidance to me as a junior.
+            </p>
+            
+          </div>
+				</div>
+
+			</div>			
+		</div>
+		-->
+	</section>
+
+	<div class="hr-rule"></div>
+	<!-- Footer -->
+	<footer class="footer text-center" id="resume">
+		<div class="container">
+			<h5 class="mb-4">Looking for someone for your team? Connect with me 💬!</h5>
+			<ul class="list-inline mb-4">
+				<li class="list-inline-item">
+					<a class="social-link rounded-circle text-white mr-2"
+						href="mailto:narendra0014@gmail.com?subject=Conversation to discuss a potential opportunity">
+						<i class="icon-paper-plane"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="social-link rounded-circle text-white mr-2" href="https://www.linkedin.com/in/perfectlypixel/"
+						target="_blank">
+						<i class="icon-social-linkedin"></i>
+					</a>
+				</li>
+				<!-- <li class="list-inline-item">
+					<a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/3_2_1___Design/" target="_blank">
+						<i class="icon-social-twitter"></i>
+					</a>
+				</li> 
+				<li class="list-inline-item">
+					<a class="social-link rounded-circle text-white" href="https://www.instagram.com/nan__ks/" target="_blank">
+						<i class="icon-social-instagram"></i> -->
+					</a>
+				</li>
+			</ul>
+			<p class="text-muted small mb-0">Copyright &copy; PerfectlyPixel 2022</p>
+		</div>
+	</footer>
+
+
+	<!-- Scroll to Top Button-->
+	<a class="scroll-to-top js-scroll-trigger" href="#page-top">
+		<i class="fas fa-angle-up"></i>
+	</a>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Custom scripts for this template -->
+	<script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
 </html>
