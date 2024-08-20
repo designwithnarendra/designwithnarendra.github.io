@@ -25,8 +25,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Philosopher', 'Yeseva One', 'Josefin Sans', serif;
-  font-weight: 700;
+  font-family: 'Josefin Sans', serif;
+  font-weight: 600;
 }
 
 h6 {
@@ -82,10 +82,14 @@ h3 {
   padding-bottom: 3rem;
 }
 
+.margin-portitem {
+  margin-bottom: 5rem;
+}
+
 /* links */
 a,
 a:hover {
-  color: #F45050;
+  color: #2fbc6b;
 }
 
 .home {
@@ -154,7 +158,7 @@ a:hover {
   }
 
   .margin-portitem {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   body {
@@ -237,7 +241,7 @@ a:hover {
 }
 
 .logo {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 
@@ -394,7 +398,9 @@ a:hover {
   content: "";
   display: block;
   width: 80%;
+  margin-top: 4px;
   height: 4px;
+  border-radius: 100px;
   background: #2fbc6b;
   transition: width 0.3s;
 }
@@ -769,7 +775,7 @@ ol li {
   width: 3rem;
   line-height: 3.1rem;
   font-size: 1rem;
-  background-color: #F31559;
+  background-color: #2fbc6b;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -1209,6 +1215,7 @@ ol li {
   color: #2fbc6b;
   border: 1px solid #2fbc6b;
   padding: 1rem;
+  height: 48px;
   width: 100%;
 }
 
@@ -1253,32 +1260,27 @@ ol li {
   height: 600px;
 }
 
-.gif-dimension {
+.gif-dimension
+{
   width: 360px;
-  height: 692px;
 }
 
-/* buttons */
-.button-new {
-  border: none;
-  padding-left: 16px;
-  padding-right: 16px;
-  height: 48px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  transition-duration: 0.4s;
-  cursor: pointer;
+.img-fluid
+{
+  border-radius: 16px;
+}
+  
+.btn-primary
+{
+  background-color: #2fbc6b;
+  color: #fff;
   border-radius: 8px;
+  height: 56px;
+  vertical-align: middle;
 }
 
-.button-solid {
-  background-color: #F45050; 
-  color: #ffffff; 
+.btn-primary:hover 
+{
+  background-color: #269756;
+  color: #fff;
 }
-
-.button-solid:hover {
-  background-color: #04AA6D;
-}
-
-
